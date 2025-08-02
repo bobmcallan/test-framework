@@ -1,0 +1,8 @@
+[
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://localhost:3000/",
+    "timestamp": "2025-08-02T06:42:20.857Z"
+  }
+]

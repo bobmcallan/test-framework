@@ -1,0 +1,29 @@
+{
+    "name": "value-australia-tests",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Test suite for Value Australia application",
+    "main": "run-tests.ps1",
+    "scripts": {
+        "test": "pwsh ./run-tests.ps1",
+        "test:generic": "node generic-test.js",
+        "test:auth": "node auth-test.js",
+        "test:auth-persistence": "node auth-persistence-test.js"
+    },
+    "dependencies": {
+        "playwright": "^1.40.0",
+        "dotenv": "^16.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0"
+    },
+    "keywords": [
+        "testing",
+        "playwright",
+        "vue",
+        "oauth",
+        "automation"
+    ],
+    "author": "Bob McAllan",
+    "license": "MIT"
+}

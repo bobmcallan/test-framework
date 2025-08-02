@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-08-02T06:39:56.008Z",
+  "testName": "Generic Browser Test",
+  "entryUrl": "http://localhost:3000",
+  "steps": [
+    {
+      "step": "1",
+      "message": "Opening browser at: http://localhost:3000",
+      "success": true,
+      "timestamp": "2025-08-02T06:39:56.423Z",
+      "url": null
+    }
+  ],
+  "success": false,
+  "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/\nCall log:\n\u001b[2m  - navigating to \"http://localhost:3000/\", waiting until \"networkidle\"\u001b[22m\n",
+  "screenshots": [],
+  "finalUrl": null,
+  "consoleLogs": [],
+  "networkEvents": [
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/",
+      "timestamp": "2025-08-02T06:39:56.427Z"
+    }
+  ]
+}
